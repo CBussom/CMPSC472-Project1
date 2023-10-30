@@ -159,11 +159,11 @@ Consumed 9
 
 ## Discussion
 
-The process manager provides basic capabilities for process and thread management in Python. Key aspects:
+This project makes a basic process and thread manager using Python. It shows some core ideas like starting processes, stopping processes, making threads, and syncing threads. The code is pretty simple but gets the job done. Some things it can do are:
 
-- Cross-platform support using Python standard library
-- Simple command-line interface for testing  
-- Unit tests cover key functionality   
-- Producer-consumer example shows synchronization
-
-Overall, this project demonstrates core concepts like process control, threading, synchronization, and IPC in a simple command-line application. The code can serve as a starting point for more advanced process management functionality.
+- Start up processes using subprocess
+- List out active processes
+- Stop processes
+- Create threads and run them
+- Sync threads with locks
+Even though it's basic, it shows how to do process and thread stuff in Python on any computer. The code could help make more complex managers. 
