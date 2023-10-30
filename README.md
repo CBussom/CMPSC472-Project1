@@ -131,6 +131,7 @@ Consumed 8
 Consumed 9
 ```
 <br> 
+
 ## Discussion
 
 The process manager provides basic capabilities for process and thread management in Python. Key aspects:
