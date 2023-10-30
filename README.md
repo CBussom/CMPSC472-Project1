@@ -19,12 +19,41 @@ The process manager has a command-line interface. To start it open:
 Project_ProcessManager.py
 
 ## Commands
-- The `create_process` command creates a new process and starts it.
-- The `list_processes` command prints out all of the processes.
-- The `terminate_process` command terminates whichever the target process is.
-- The `create_thread` command creates a thread of whichever the target function is.
-- The `start_thread` command starts the created thread.
-- The `wait_thread` command waits until the threads are done to join them together.
+- **create_process <name> <command>**:
+  - *Description*: This command is used to create a new process with a specified name and command. The process is started immediately.
+  - *Example*: `create_process proc1 sleep 2`
+    - This command creates a process named `proc1` that runs the `sleep` command with a sleep duration of 2 seconds.
+
+- **list_processes**:
+  - *Description*: This command prints out information about all the running processes, including their names, process IDs (PIDs), and parent process IDs (PPIDs).
+  - *Example*: `list_processes`
+    - This command will list all the currently running processes.
+
+- **terminate_process <name>**:
+  - *Description*: This command terminates the specified process by name. It forcefully stops the process.
+  - *Example*: `terminate_process proc1`
+    - This command will terminate the process named `proc1`.
+
+- **create_thread <name> <target_function> <arguments>**:
+  - *Description*: This command is used to create a new thread with a specified name, target function, and its arguments.
+  - *Example*: `create_thread thread1 test_function "arg1" "arg2"`
+    - This command creates a thread named `thread1` that runs the `test_function` with arguments "arg1" and "arg2".
+
+- **start_thread <name>**:
+  - *Description*: This command starts the specified thread by name.
+  - *Example*: `start_thread thread1`
+    - This command starts the thread named `thread1`.
+
+- **wait_thread <name>**:
+  - *Description*: This command waits for the specified thread to complete before proceeding.
+  - *Example*: `wait_thread thread1`
+    - This command waits for the thread named `thread1` to finish.
+
+- **producer_consumer**:
+  - *Description*: This command demonstrates producer-consumer synchronization by creating and running two threads for the producer and consumer roles. It uses semaphores for synchronization.
+  - *Example*: `producer_consumer`
+    - This command initiates the producer-consumer synchronization example.
+
   
 ### Thread Synchronization   
 The `producer_consumer` command demonstrates synchronization of threads using semaphores.
