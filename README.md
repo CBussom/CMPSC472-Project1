@@ -166,4 +166,5 @@ This project makes a basic process and thread manager using Python. It shows som
 - Stop processes
 - Create threads and run them
 - Sync threads with locks
+
 Even though it's basic, it shows how to do process and thread stuff in Python on any computer. The code could help make more complex managers. 
