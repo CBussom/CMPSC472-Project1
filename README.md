@@ -36,7 +36,7 @@ Run the file in python in the console here are some sample commands you can try:
 This command will create a process called process1 and will ping google.com
 
 ## output 
-`Command: create_process process1 ping google.com   
+```Command: create_process process1 ping google.com   
 Process 'process1' created
 Command: 
 Pinging google.com [2607:f8b0:4006:80b::200e] with 32 bytes of data:
@@ -48,7 +48,7 @@ Reply from 2607:f8b0:4006:80b::200e: time=20ms
 Ping statistics for 2607:f8b0:4006:80b::200e:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 12ms, Maximum = 20ms, Average = 14ms`
+    Minimum = 12ms, Maximum = 20ms, Average = 14ms```
 
 `list_processes` 
 This command will show the processes currently created and running
