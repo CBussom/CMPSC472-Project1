@@ -141,11 +141,4 @@ The process manager provides basic capabilities for process and thread managemen
 - Unit tests cover key functionality   
 - Producer-consumer example shows synchronization
 
-Future improvements:
-
-- Add logging and better error handling
-- Support process groups and pipelines
-- Implement more synchronization constructs  
-- Performance testing and optimization
-
 Overall, this project demonstrates core concepts like process control, threading, synchronization, and IPC in a simple command-line application. The code can serve as a starting point for more advanced process management functionality.
