@@ -15,7 +15,7 @@ Clone the repository: https://github.com/CBussom/CMPSC472-Project1
 
 ## How To Use
 
-The process manager has a command-line interface. To start it:
+The process manager has a command-line interface. To start it open: 
 Project_ProcessManager.py
 
 ## Commands
