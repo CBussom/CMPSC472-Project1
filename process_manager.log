@@ -1,6 +1,5 @@
 2023-10-29 22:22:18,267 - INFO: Process created (PID: 14528, Name: process1, Command: ping google.com)
 2023-10-29 22:26:50,447 - INFO: Process listed (PID: 14528, Name: process1)
-
 2023-10-29 22:47:56,908 - INFO: Thread created (Name: thread1, Target: test_function)
 2023-10-29 22:48:19,067 - INFO: Thread started (Name: thread1)
 2023-10-29 22:48:19,067 - INFO: Test function executed with arguments (arg1: 42, arg2: 24)
