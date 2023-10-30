@@ -9,7 +9,7 @@
 
 ## Installation  
 
-The code is written in Python. Ensure Python 3.x is installed.
+The code is written in Python. Ensure Python is installed on your machine.
 
 Clone the repository: https://github.com/CBussom/CMPSC472-Project1
 
