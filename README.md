@@ -53,11 +53,7 @@ Project_ProcessManager.py
   - *Description*: This command demonstrates producer-consumer synchronization by creating and running two threads for the producer and consumer roles. It uses semaphores for synchronization.
   - *Example*: `producer_consumer`
     - This command initiates the producer-consumer synchronization example.
-
-  
-### Thread Synchronization   
-The `producer_consumer` command demonstrates synchronization of threads using semaphores.
-
+      
 # Sample Commands
 
 Run the file in python in the console here are some sample commands you can try: <br> <br> 
