@@ -56,7 +56,7 @@ The process manager has a command-line interface. To start it open:
       
 # Sample Commands
 
-Run the file in python in the console here are some sample commands you can try: <br> <br> 
+Run the file in python and in the console here are some sample commands you can try typing in: <br> <br> 
 `create_process process1 ping google.com `
 This command will create a process called process1 and will ping google.com
 
