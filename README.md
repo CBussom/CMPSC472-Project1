@@ -35,8 +35,9 @@ Run the file in python in the console here are some sample commands you can try:
 `create_process process1 ping google.com `
 This command will create a process called process1 and will ping google.com
 
-## output 
-```Command: create_process process1 ping google.com   
+### output 
+```
+Command: create_process process1 ping google.com   
 Process 'process1' created
 Command: 
 Pinging google.com [2607:f8b0:4006:80b::200e] with 32 bytes of data:
