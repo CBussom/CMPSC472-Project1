@@ -51,7 +51,7 @@ Ping statistics for 2607:f8b0:4006:80b::200e:
 Approximate round trip times in milli-seconds:
     Minimum = 12ms, Maximum = 20ms, Average = 14ms
 ```
-
+<br> 
 `list_processes` 
 This command will show the processes currently created and running
 ### Output
@@ -59,7 +59,7 @@ This command will show the processes currently created and running
 list_processes
 process1  PID: 14528 PPID: 20968
 ```
-
+<br> 
 `terminate_process process1`
 This command will terminate process1 which was created before
 
@@ -70,7 +70,7 @@ Process 'process1' terminated
 Command: list_processes
 No processes
 ```
-
+<br> 
 `create_thread thread1 test_function 42,24`
 This command will create a thread of the function 
 
@@ -79,7 +79,7 @@ This command will create a thread of the function
 Command: create_thread thread1 test_function 42,24   
 Thread 'thread1' created
 ```
-
+<br> 
 
 `start_thread thread1`
 This command will start the thread we previously created 
@@ -89,7 +89,7 @@ This command will start the thread we previously created
 Command: start_thread thread1  
 test_function is running with arguments: 42 24
 ```
-
+<br> 
 `wait_thread thread1`
 This command waits until the thread has completed to move on
 
@@ -97,7 +97,7 @@ This command waits until the thread has completed to move on
 Command: wait_thread thread1
 Thread 'thread1' completed
 ```
-
+<br> 
 
 `producer_consumer`
 This command implements a classic synchronization problem using threads and semaphores
@@ -125,6 +125,7 @@ Produced 9
 Consumed 8
 Consumed 9
 ```
+<br> 
 ## Discussion
 
 The process manager provides basic capabilities for process and thread management in Python. Key aspects:
