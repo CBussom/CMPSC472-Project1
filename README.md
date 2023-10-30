@@ -48,7 +48,8 @@ Reply from 2607:f8b0:4006:80b::200e: time=20ms
 Ping statistics for 2607:f8b0:4006:80b::200e:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 12ms, Maximum = 20ms, Average = 14ms```
+    Minimum = 12ms, Maximum = 20ms, Average = 14ms
+```
 
 `list_processes` 
 This command will show the processes currently created and running
