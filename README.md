@@ -52,6 +52,7 @@ Approximate round trip times in milli-seconds:
     Minimum = 12ms, Maximum = 20ms, Average = 14ms
 ```
 <br> 
+
 `list_processes` 
 This command will show the processes currently created and running
 ### Output
@@ -60,6 +61,7 @@ list_processes
 process1  PID: 14528 PPID: 20968
 ```
 <br> 
+
 `terminate_process process1`
 This command will terminate process1 which was created before
 
@@ -71,6 +73,7 @@ Command: list_processes
 No processes
 ```
 <br> 
+
 `create_thread thread1 test_function 42,24`
 This command will create a thread of the function 
 
@@ -79,6 +82,7 @@ This command will create a thread of the function
 Command: create_thread thread1 test_function 42,24   
 Thread 'thread1' created
 ```
+
 <br> 
 
 `start_thread thread1`
@@ -90,6 +94,7 @@ Command: start_thread thread1
 test_function is running with arguments: 42 24
 ```
 <br> 
+
 `wait_thread thread1`
 This command waits until the thread has completed to move on
 
