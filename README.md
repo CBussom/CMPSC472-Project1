@@ -25,7 +25,7 @@ Project_ProcessManager.py
 - The `create_thread` command creates a thread of whichever the target function is.
 - The `start_thread` command starts the created thread.
 - The `wait_thread` command waits until the threads are done to join them together.
-- 
+  
 ### Thread Synchronization   
 The `producer_consumer` command demonstrates synchronization of threads using semaphores.
 
