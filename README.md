@@ -35,7 +35,7 @@ Run the file in python in the console here are some sample commands you can try:
 `create_process process1 ping google.com `
 This command will create a process called process1 and will ping google.com
 
-### output 
+### Output 
 ```
 Command: create_process process1 ping google.com   
 Process 'process1' created
@@ -54,6 +54,11 @@ Approximate round trip times in milli-seconds:
 
 `list_processes` 
 This command will show the processes currently created and running
+### Output
+```
+list_processes
+process1  PID: 14528 PPID: 20968
+```
 
 `create_thread t1 test_function 10 20`
 This command will create a thread of the function 
