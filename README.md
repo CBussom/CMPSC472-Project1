@@ -42,3 +42,28 @@ This command will show the processes currently created and running
 
 `create_thread t1 test_function 10 20`
 This command will create a thread of the function 
+
+
+## Discussion
+
+The process manager provides basic capabilities for process and thread management in Python. Key aspects:
+
+- Cross-platform support using Python standard library
+- Simple command-line interface for testing  
+- Unit tests cover key functionality   
+- Producer-consumer example shows synchronization
+
+Limitations:
+
+- Currently only supports basic process and thread operations
+- No parallel execution of multiple processes
+- Minimal error handling
+
+Future improvements:
+
+- Add logging and better error handling
+- Support process groups and pipelines
+- Implement more synchronization constructs  
+- Performance testing and optimization
+
+Overall, this project demonstrates core concepts like process control, threading, synchronization, and IPC in a simple command-line application. The code can serve as a starting point for more advanced process management functionality.
