@@ -60,10 +60,71 @@ list_processes
 process1  PID: 14528 PPID: 20968
 ```
 
-`create_thread t1 test_function 10 20`
+`terminate_process process1`
+This command will terminate process1 which was created before
+
+### Output
+```
+Command: terminate_process process1
+Process 'process1' terminated
+Command: list_processes
+No processes
+```
+
+`create_thread thread1 test_function 42,24`
 This command will create a thread of the function 
 
+### Output
+```
+Command: create_thread thread1 test_function 42,24   
+Thread 'thread1' created
+```
 
+
+`start_thread thread1`
+This command will start the thread we previously created 
+
+### Output
+```
+Command: start_thread thread1  
+test_function is running with arguments: 42 24
+```
+
+`wait_thread thread1`
+This command waits until the thread has completed to move on
+
+```
+Command: wait_thread thread1
+Thread 'thread1' completed
+```
+
+
+`producer_consumer`
+This command implements a classic synchronization problem using threads and semaphores
+
+```
+Command: producer_consumer
+Produced 0
+Produced 1
+Consumed 0
+Produced 2
+Consumed 1
+Produced 3
+Consumed 2
+Produced 4
+Consumed 3
+Produced 5
+Consumed 4
+Produced 6
+Consumed 5
+Produced 7
+Consumed 6
+Produced 8
+Consumed 7
+Produced 9
+Consumed 8
+Consumed 9
+```
 ## Discussion
 
 The process manager provides basic capabilities for process and thread management in Python. Key aspects:
