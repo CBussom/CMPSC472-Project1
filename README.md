@@ -57,7 +57,6 @@ Limitations:
 
 - Currently only supports basic process and thread operations
 - No parallel execution of multiple processes
-- Minimal error handling
 
 Future improvements:
 
